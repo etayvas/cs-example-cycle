@@ -1,0 +1,54 @@
+a,
+a:focus,
+a:hover {
+  color: #fff; }
+
+html,
+body {
+  height: 100%;
+  background-color: #333333; }
+
+body {
+  color: #ffffff;
+  text-align: center; }
+
+#app {
+  text-align: center; }
+
+.search-results {
+  display: inline-flex; }
+  .search-results .track-list {
+    padding: 25px;
+    align-self: flex-start; }
+    .search-results .track-list div:hover {
+      background-color: white;
+      color: black;
+      cursor: pointer; }
+  .search-results .track-data {
+    padding: 25px;
+    background-color: white;
+    color: black; }
+    .search-results .track-data .stream-status img {
+      max-width: 25px;
+      cursor: pointer; }
+
+.search-history {
+  margin: 10px 0; }
+  .search-history .history-items div {
+    margin: 0 10px;
+    display: inline-block;
+    cursor: pointer; }
+    .search-history .history-items div:hover {
+      background-color: white;
+      color: black; }
+    .search-history .history-items div::before {
+      content: " // "; }
+    .search-history .history-items div::after {
+      content: " // "; }
+
+.buttons-area button {
+  background-color: #fff; }
+
+@media only screen and (max-device-width: 480px) {
+  .search-results {
+    display: block; } }
