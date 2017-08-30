@@ -4,6 +4,6 @@ cyclejs
 xstream
 webpack
 typescript
-sass
+SCSS
 
 <a target="_blank" href="https://etayvas.github.io/cs-example-cycle/index.html?">DEMO</a>
